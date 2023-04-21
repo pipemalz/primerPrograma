@@ -1,0 +1,5 @@
+num1 = int(input("Introduce un numero: "))
+num2 = int(input("Introduce un numero: "))
+num3 = int(input("Introduce un numero: "))
+print("El numero mas grande es el {}".format(max(num1, num2, num3)))
+print("El numero mas pequeño es el {}".format(min(num1, num2, num3)))
