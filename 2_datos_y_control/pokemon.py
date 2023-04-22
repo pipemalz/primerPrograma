@@ -53,7 +53,7 @@ while vida_cpu > 0 and vida_jugador > 0:
 
     ataque_jugador = None
 
-    while ataque_jugador != "P" and ataque_jugador != "A" and ataque_jugador != "B" and ataque_jugador != "N":
+    while ataque_jugador not in ['P', 'A', 'B', 'N']:
         ataque_jugador = input("Que ataque deseas realizar? [P]lacaje, Pistola [A]gua, [B]urbuja, [N]o atacar: ")
 
     if ataque_jugador == "P":
